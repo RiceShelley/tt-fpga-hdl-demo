@@ -77,7 +77,7 @@
                $quot;
          
          m5+sseg_decoder($segments, $out[3:0])
-         *uo_out = {1'b0, ~$segments};
+         *uo_out = {$valid, ~$segments};
          
          
 
